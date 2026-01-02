@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+
+langchain
+langgraph
+langchain-community
+
+groq
+duckduckgo-search
+
+pillow
