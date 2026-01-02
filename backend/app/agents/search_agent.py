@@ -48,7 +48,7 @@ def search_facts(image_text: str) -> dict:
         
 
         organic = data.get("organic_results", [])
-        print(organic)
+        # print(organic)
 
         if not organic:
             return {
@@ -56,13 +56,13 @@ def search_facts(image_text: str) -> dict:
                 "sources": []
             }
             
-        # print("=== SOURCES EXTRACTED ===")
-        # for r in organic[:5]:
-        #     print(
-        #         r.get("link"),
-        #         r.get("display_link"),
-        #         r.get("domain")
-        #     )
+        print("=== SOURCES EXTRACTED ===")
+        for r in organic[:5]:
+            print(
+                r.get("link"),
+                r.get("display_link"),
+                r.get("domain")
+            )
 
 
         return {

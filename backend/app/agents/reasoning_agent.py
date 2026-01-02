@@ -29,8 +29,8 @@ SEARCH RESULTS:
 {search_result}
 
 Return ONLY valid JSON (no markdown, no explanation outside JSON):
-{{
-  "verdict": "BENAR | SALAH | TIDAK PASTI",
+{{  
+  "verdict": "BENAR (FACT) | SALAH (HOAX) | TIDAK PASTI",
   "confidence": 1-100,
   "explanation": "Penjelasan singkat dan jelas dalam Bahasa Indonesia"
 }}
